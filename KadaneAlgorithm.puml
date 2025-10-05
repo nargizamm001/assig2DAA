@@ -1,0 +1,15 @@
+@startuml
+title Kadane's Algorithm (Student B)
+
+class KadaneAlgorithm {
+  +findMaxSubarray(array: int[]): void
+  +main(args: String[]): void
+}
+
+KadaneAlgorithm : int maxSum
+KadaneAlgorithm : int currentSum
+KadaneAlgorithm : int start
+KadaneAlgorithm : int end
+KadaneAlgorithm : int tempStart
+
+@enduml
