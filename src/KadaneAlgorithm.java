@@ -24,7 +24,7 @@ public class KadaneAlgorithm {
             }
         }
 
-        // Output result
+         // Output result
         System.out.println("Maximum Subarray Sum: " + maxSum);
         System.out.println("Start Index: " + start);
         System.out.println("End Index: " + end);
